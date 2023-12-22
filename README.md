@@ -12,10 +12,10 @@ MyTFTP Client는 Python과 소켓 API를 사용하여 구현된 간단한 TFTP �
 
 python mytftp_client.py <host_address> [-p <port_number>] [get|put] <filename>
   # 예시
-  python mytftp_client.py 203.250.133.88 get tftp.conf
-  # 호스트 주소 203.250.133.88에 연결하여 tftp.conf 파일을 다운로드 받는다.
+    python mytftp_client.py 203.250.133.88 get tftp.conf
+   //호스트 주소 203.250.133.88에 연결하여 tftp.conf 파일을 다운로드 받는다.
     python mytftp_client.py 203.250.133.88 -p 69 put myfile.txt
-  # 호스트 주소 203.250.133.88에 연결하고 포트 번호를 69로 지정하여 myfile.txt 파일을 업로드한다.
+   //호스트 주소 203.250.133.88에 연결하고 포트 번호를 69로 지정하여 myfile.txt 파일을 업로드한다.
     
 
 
